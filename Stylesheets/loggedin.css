@@ -1,0 +1,82 @@
+/* Logged in page */
+
+body {
+    background: #eaeaea;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+#header h1 {
+    padding-bottom: 0;
+    padding-top: 1em;
+}
+
+.home-select {
+    background: #eaeaea;
+}
+
+.home-select li {
+    background: #fff;
+    margin-bottom: 1em;
+    color: #333;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.card {
+    transition: .4s;
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+}
+
+.card-content p {
+    padding: 1em 0;
+    padding-top: 0;
+}
+
+.bottom-card {
+    margin-bottom: 2.5em;
+}
+
+#something {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media only screen and (min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+    
+    #header h1 {
+        margin-top: 0;
+    }
+    
+    .bottom-card {
+        margin-bottom: auto;
+    }
+    
+    #something {
+        margin-top: auto;
+    }
+    
+    .home-select h1, .home-select ul {
+        grid-column: 2/4;
+    }
+    
+    .home-select li {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

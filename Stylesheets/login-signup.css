@@ -1,0 +1,54 @@
+/* Log in and Sign Up Pages */
+
+body {
+    background: #eaeaea;
+    color: #333;
+}
+
+.title {
+    text-align: center;
+}
+
+.form {
+    margin-top: -1.4em;
+}
+
+.form label {
+    display: block;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+.form input {
+    margin: .5em;
+    border-radius: 3px;
+    border: none;
+    height: 3.5em;
+    width: 50%;
+}
+
+.form label {
+    margin-top: .1em; 
+}
+
+.form input {
+    margin-top: -.07em;
+}
+
+.form input[type=text], .form input[type=password] {
+    text-align: center;
+}
+
+.form input[type=submit] {
+    background: #333;
+    color: #eaeaea;
+    height: 3.5em;
+    transition: .25s;
+    font-size: .8em;
+    margin-top: .5em;
+}
+
+.form input[type=submit]:hover {
+    background: #0a9323;
+    cursor: pointer;
+}
